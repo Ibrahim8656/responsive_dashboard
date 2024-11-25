@@ -32,7 +32,7 @@ class Home extends StatelessWidget {
         appBar: AppBar(
         leading: IconButton( onPressed: () { 
           scaffoldkey.currentState!.openDrawer();
-        }, icon: Icon(Icons.menu,)),
+        }, icon: Icon(Icons.menu,),),
       ),
       drawer: CustomDrawer(),
        body:

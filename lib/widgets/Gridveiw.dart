@@ -29,11 +29,11 @@ Widget  customgridveiw()=> SliverPadding(
   Widget CustomDrawer()=>Drawer(
         child: Column(
           children: [
-
             DrawerHeader(child: 
             Icon(
               Icons.favorite_sharp
-            ))
+            ),
+            ),
           ],
         ),
         backgroundColor: Colors.grey,
